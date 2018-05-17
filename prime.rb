@@ -5,17 +5,15 @@ def prime?(num)
   
   if num <= 1 
     return false
+  elsif num == 2 
+    return true
 
   else
   
     range = (2..num/2 +1)
     divs = range.collect{|x| num % x == 0}
 
-    trues = divs.count
-    if trues > 1 
-      return true 
-    else 
-      return false
+    t
 
   end
 end
