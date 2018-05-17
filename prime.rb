@@ -14,10 +14,10 @@ def prime?(num)
     divs = range.collect{|x| num % x == 0}
     puts divs
 
-    if !divs.include?(true)
-      return true
-    else
-      return false
+    # if !divs.include?(true)
+    #   return true
+    # else
+    #   return false
 
     end
   end
