@@ -11,7 +11,11 @@ def prime?(num)
     range = (2..num/2 +1)
     divs = range.collect{|x| num % x == 0}
 
-    if !divs.include?(true) ? true : false
+    trues = divs.count
+    if trues > 1 
+      return true 
+    else 
+      return false
 
   end
 end
