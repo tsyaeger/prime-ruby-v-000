@@ -16,12 +16,6 @@ def prime?(num)
     
     divs.count(true) == 0 ? true : false
 
-    # if !divs.include?(true)
-    #   return true
-    # else
-    #   return false
-
-    # end
   end
 end
   
