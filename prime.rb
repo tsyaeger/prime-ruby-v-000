@@ -13,6 +13,8 @@ def prime?(num)
     range = (2..num/2 +1)
     divs = range.collect{|x| num % x == 0}
     puts divs
+    
+    if divs.count(true) == 0 ? true : false
 
     # if !divs.include?(true)
     #   return true
