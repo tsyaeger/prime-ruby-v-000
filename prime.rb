@@ -1,5 +1,6 @@
 
 
+
 def prime?(num)
   
   if num > 0 
@@ -12,6 +13,10 @@ def prime?(num)
     divs = range.collect{|x| num % x == 0}
 
     if !divs.include?(true) ? true : false
+
+  end
+end
+
   
 end
   
