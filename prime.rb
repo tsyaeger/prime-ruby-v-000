@@ -2,4 +2,4 @@
 
 def prime?(num)
   
-  if num.class ==
+  if num.is_a(Integer)
