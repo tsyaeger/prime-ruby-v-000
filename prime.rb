@@ -6,8 +6,7 @@ def prime?(num)
   
   divs = range.collect{|x| num % x == 0}
 
-  
-  divs.none?{|i| i == true}
+  if divs.
   
 end
   
