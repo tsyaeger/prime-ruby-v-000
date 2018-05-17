@@ -3,10 +3,9 @@
 
 def prime?(num)
   
-  if num <= 1 || num == 4
+  if num <= 1 
     return false
-  elsif num == 2 
-    return true
+
   else
   
     range = (2..num/2 +1)
