@@ -4,10 +4,10 @@ def prime?(num)
   
   range = (2..num/2 +1)
   
-  divs.none?{|i| i == true}
+  divs = range.collect{|x| num % x == 0}
 
   
-  return true if !divs.include?(true)
+  divs.none?{|i| i == true}
   
 end
   
